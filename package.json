@@ -1,0 +1,22 @@
+{
+  "name": "image-shrink",
+  "version": "1.0.0",
+  "description": "Electron app for optimizing images",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celipas/image-shrink.git"
+  },
+  "author": "Chris Elipas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/celipas/image-shrink/issues"
+  },
+  "homepage": "https://github.com/celipas/image-shrink#readme",
+  "devDependencies": {
+    "electron": "^10.1.5"
+  }
+}
