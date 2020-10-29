@@ -126,7 +126,7 @@ async function shrinkImage({ imgPath, quality, dest }) {
         }),
       ],
     });
-    console.log(files);
+    // console.log(files);
 
     shell.openPath(dest);
   } catch (err) {
