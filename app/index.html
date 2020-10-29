@@ -44,6 +44,13 @@
 
     </div>
     <script src="js/materialize.min.js"></script>
+    <script>
+        const path = require('path')
+        const os = require('os')
+
+        // @Todo let the user select their path
+        document.getElementById('output-path').innerText = path.join(os.homedir(), 'imageshrink')
+    </script>
 </body>
 
 </html>
